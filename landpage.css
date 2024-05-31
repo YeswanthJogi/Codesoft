@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  background-image: url(flower.jpg);
+}
+header {
+  background-color: rgb(244, 8, 47);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(248, 6, 46, 0.927);
+  padding: 10px;
+}
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.aboutus {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: rgb(244, 8, 47);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 250px;
+
+}
+.aboutus h2 {
+  margin-bottom: 20px;
+  color: rgb(244, 8, 47);
+  font-size: 30px;
+}
+.flower{
+  margin-left: 850px;
+  margin-top: -300px;
+
+}
+.image{
+height: 400px;
+width: 600px;
+border-radius: 150px;
+}
+.delight{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8b400;
+  margin-top: 150px;
+  margin-left: 75px;
+}
+.paradise{
+  color: #fff;
+  font-size: 30px;
+  margin-left: 50px;
+}
+.aboutus p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 100px;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-image: url('flower3.jpg');
+}
+.card h3 {
+  color:brown
+  margin-bottom: 10px;
+}
+.card p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.card .cta {
+  background-color: rgb(244, 8, 47);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card .cta-button:hover {
+  background-color: red;
+}
+.move{
+  margin-top: 200px;
+}
+footer{
+  margin-top: 150px;
+}
+.contact {
+  padding: 50px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+
+  text-align: center;
+  margin-top: 200px;
+}
+.contact h2 {
+  color: rgb(244, 8, 47);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.info {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.contact-info p {
+  margin: 10px 0;
+}
+.contact-info a {
+  color: #f8b400;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
